@@ -1,0 +1,19 @@
+.thumbnail-list-container {
+  margin-right: 16px;
+}
+.thumbnail-btn {
+  background-color: #ffffff;
+  border: none;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+}
+.thumbnail {
+  height: 50px;
+  width: 50px;
+  opacity: 0.5;
+}
+
+.selected-thumbnail {
+  opacity: 1;
+}

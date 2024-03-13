@@ -1,0 +1,41 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  max-width: 780px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.image {
+  border-radius: 18px;
+}
+
+.heading {
+  font-size: 24px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+.desc {
+  font-size: 16px;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.thumbnails-cont {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+}
